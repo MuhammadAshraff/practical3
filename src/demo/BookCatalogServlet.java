@@ -24,7 +24,7 @@ public class BookCatalogServlet extends HttpServlet {
 
         BookDBAO db = new BookDBAO();
         List<BookDetails> list = db.getAllBook();
-        out.println("<html>" + "<head><title>Duke's Bookstore</title></head>" +
+        out.println("<html>" + "<head><title>Duke's Bookstor</title></head>" +
                 "<body  bgcolor=\"#ffffff\">" + "<center>" +
                 "<hr> <br> &nbsp;" + "<h1>" +
                 "<font size=\"+3\" color=\"#CC0066\">Duke's </font> <img src=\"" +
